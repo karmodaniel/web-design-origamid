@@ -196,12 +196,10 @@ img {
 .produtos-lista li {
   background: #fec63e;
   text-align: center;
-  
 }
 
-.produtos-lista li img{
+.produtos-lista li img {
   margin: 0 auto;
-  
 }
 
 .produtos-lista li h3 {
@@ -271,7 +269,7 @@ img {
 
 .qualidade_lista {
   padding-top: 20px;
-  overflow: auto;  /* clear-fix */
+  overflow: auto; /* clear-fix */
 }
 
 .qualidade::after {
@@ -342,7 +340,7 @@ img {
   line-height: 25px;
   color: #fec63e;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   font-weight: bold;
 }
 
@@ -352,7 +350,7 @@ img {
   width: 60px;
   height: 3px;
   background: #fec63e;
-  margin: 6px 0 12px 0 ;
+  margin: 6px 0 12px 0;
 }
 
 .footer_historia {
@@ -362,7 +360,7 @@ img {
 .footer_contato ul li {
   font-size: 14px;
   line-height: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .footer_redes ul li {
@@ -377,11 +375,51 @@ img {
 }
 
 .footer_redes ul li a:hover {
-  border-color:  #fff;
+  border-color: #fff;
 }
 
 .copy {
   width: 100%;
   background: #fec63e;
   padding: 20px 0;
+}
+
+/* JAVASCRIPT */
+
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  text-indent: -99px;
+  overflow: hidden;
+  background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+  background: #fec63e;
 }
