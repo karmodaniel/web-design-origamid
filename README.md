@@ -1,12 +1,11 @@
 ## Welcome to Bikcraft 👋
-This website was development in [Origamid](https://origamid.com) <img alt="origamid logo" src="assets/origamid.png" width="15px" height="15px"> web design course.
+This website was developed in [Origamid](https://origamid.com) <img alt="origamid logo" src="assets/origamid.png" width="15px" height="15px"> web design course.
 
 <img alt="Bikcraft site" src="assets/bikcraft.gif">
 
 </br>
 
 ## 🚀 Development tools 
-
 
 - HTML
 - CSS
